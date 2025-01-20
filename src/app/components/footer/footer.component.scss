@@ -1,0 +1,16 @@
+@use '../../ui/styles/variables.scss' as variables;
+
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: variables.$background-color;
+
+    p {
+        color: #6B7280;
+    }
+
+    a {
+        color: variables.$highlight-color;
+        text-decoration: none;
+    }
+}
